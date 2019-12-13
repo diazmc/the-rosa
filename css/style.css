@@ -26,11 +26,12 @@ html {
 }
 
 body {
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 section {
     padding: 3.9rem 0;
+    overflow: hidden;
 }
 
 img {
@@ -411,7 +412,7 @@ footer {
 }
 
 .footer-content {
-    /* overflow: hidden; */
+    overflow: hidden;
 }
 
 .footer-content h4 {
@@ -485,6 +486,7 @@ footer {
 
 
 @media screen and (min-width: 900px) {
+
     section {
         padding: 7.9rem;
     }
